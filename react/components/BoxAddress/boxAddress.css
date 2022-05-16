@@ -1,0 +1,29 @@
+.containerBox {
+    max-width: 230px;
+    width: 100%;
+    border: 2px solid #e3e4e6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 1rem;
+    margin: 1rem 0.8rem 1rem 0;
+}
+
+.containerBox .containerBox__boxAddress {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerBox .containerBox__boxAddress>span {
+    color: #979899;
+}
+
+@media (max-width: 900px) {
+    .containerBox {
+        max-width: 160px;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+}

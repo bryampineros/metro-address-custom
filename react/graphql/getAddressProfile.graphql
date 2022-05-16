@@ -1,0 +1,11 @@
+query getAddressProfile {
+  profile(customFields: "email") @context(provider: "vtex.store-graphql") {
+    addresses {
+      street
+      city
+      country
+      complement
+      postalCode
+    }
+  }
+}

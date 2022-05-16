@@ -1,0 +1,45 @@
+.myAccountContainer .containerAddress {
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.myAccountContainer .containerAddress button {
+    border: none;
+    background-color: #ff9700;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.myAccountContainer .containerAddress button:hover {
+    background-color: #ef8800;
+}
+
+.myAccountContainer .containerAddress .containerAddress__title {
+    font-size: 1.2rem;
+}
+
+.myAccountContainer :global(.vtex-pageHeader__container) {
+    padding: 0
+}
+
+.myAccountContainer .myAccountContainer__containerBox {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+    .myAccountContainer {
+        padding: 1rem;
+    }
+
+    .myAccountContainer .containerAddress {
+        margin-right: 0;
+        padding: 0.5rem;
+    }
+
+    .myAccountContainer .myAccountContainer__containerBox {
+        justify-content: center;
+    }
+}

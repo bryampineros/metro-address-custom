@@ -1,0 +1,11 @@
+{
+    "my-account-link.custom-links": {
+        "component": "MyAccountLinks",
+        "composition": "children"
+    },
+    "my-account-page.addresses-pages": {
+        "component": "AddressesPage",
+        "composition": "children",
+        "allowed": "*"
+    }
+}
